@@ -1,0 +1,536 @@
+@media (max-width: 1367px) {
+  .chat::before {
+    display: none;
+  }
+  .intro__title {
+    font-size: 55px;
+    line-height: 65px;
+  }
+  .intro__details h2 {
+    font-size: 25px;
+  }
+  .intro__contact-title {
+    font-size: 23px;
+    line-height: 31px;
+  }
+}
+@media (max-width: 1150px) {
+  .header-chat,
+  .chat {
+    display: none;
+  }
+  .header__inner {
+    justify-content: space-between;
+  }
+  .container {
+    padding: 0 15px;
+  }
+  .intro__inner {
+    align-items: baseline;
+  }
+  .phone {
+    padding-right: 45px;
+  }
+  .phone::before {
+    right: 10px;
+  }
+  .intro__title.intro__title-laptop {
+    display: block;
+    text-align: center;
+  }
+  .intro__title {
+    display: none;
+    font-size: 64px;
+    line-height: 87px;
+    font-family: "Nunito-Bold";
+    font-weight: 700;
+  }
+  .intro__contact-subtitle {
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+  .intro__contact {
+    max-width: 377px;
+  }
+  .intro__contact input {
+    max-width: 296px;
+  }
+
+  .intro__contact button {
+    max-width: 296px;
+    padding: 15px;
+    font-size: 23px;
+    line-height: 31px;
+  }
+  .about__title-desktop {
+    display: none;
+  }
+  .about__title-laptop {
+    display: block;
+    font-size: 26px;
+    line-height: 35px;
+    margin: 0 0 13px 0;
+    font-family: "Nunito-SemiBold";
+    font-weight: 600;
+  }
+  .about__content p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 23px;
+  }
+  .about__content-box {
+    flex-direction: column;
+  }
+  .about__content-box__item {
+    max-width: 325px;
+  }
+  .about__presentation {
+    padding-right: 55px;
+  }
+  .about__presentation a {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .specification {
+    background-image: url("../images/specification-bg-laptop.jpg");
+  }
+  .specification__inner {
+    display: block;
+    text-align: center;
+  }
+  .specification__about,
+  .specification__offer {
+    margin: 0 auto 30px;
+    padding-top: 20px;
+    max-width: 540px;
+  }
+  .specification-button {
+    margin-left: -25px;
+  }
+  .review__contact {
+    padding: 40px 10px;
+    background-image: url("../images/contact-bg-laptop.jpg");
+  }
+  .contact__title-text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .call__btn {
+    font-size: 20px;
+    line-height: 27px;
+  }
+}
+@media (max-width: 942px) {
+  .about__presentation img {
+    max-width: 304px;
+  }
+  .about__presentation a {
+    max-width: 304px;
+  }
+  .about__content-box__text ul li {
+    margin-bottom: 0;
+  }
+  .about__content-box__item {
+    max-width: unset;
+  }
+  .about__content-box__icon {
+    margin-bottom: 15px;
+  }
+  .contact__top-item img {
+    width: 69px;
+    height: 69px;
+  }
+}
+@media (max-width: 801px) {
+  .phone a {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .intro {
+    background-position: center left;
+  }
+  .intro__title.intro__title-laptop {
+    font-size: 47px;
+  }
+  .intro__subtitle {
+    margin-top: -150px;
+    padding-left: 10px;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .intro__contact-title,
+  .intro__contact-subtitle {
+    font-size: 19px;
+    line-height: 28px;
+  }
+  .intro__details h2 {
+    font-size: 21px;
+  }
+  .phone a {
+    font-size: 18px;
+    line-height: 26px;
+    margin-right: 34px;
+  }
+  .phone::before {
+    right: 50px;
+    top: 15%;
+  }
+  .intro__inner {
+    flex-direction: column;
+  }
+  .intro__info {
+    padding: 0;
+    text-align: center;
+  }
+  .intro__contact {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .intro__title.intro__title-laptop {
+    display: none;
+  }
+  .intro__title {
+    display: block;
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .intro__subtitle {
+    margin: 0 0 20px;
+    font-size: 24px;
+  }
+  .about__title-laptop {
+    text-align: center;
+    font-size: 21px;
+    line-height: 28px;
+  }
+  .about__inner {
+    display: block;
+    text-align: center;
+  }
+  .about__presentation {
+    padding-right: 0;
+  }
+  .about__presentation a {
+    margin: -10px auto 11px;
+    transform: translateX(40px);
+  }
+  .about__content p {
+    max-width: 400px;
+    margin: 0 auto 15px;
+  }
+  .about__content-box {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .about__content-box__icon img {
+    float: unset;
+    margin-bottom: 5px;
+  }
+  .about__content-box__text {
+    padding-left: 0;
+    margin-bottom: 15px;
+  }
+  .specification__img {
+    width: 261px;
+  }
+  .specification-button {
+    font-size: 20px;
+    line-height: 25px;
+    width: 300px;
+    padding: 15px;
+  }
+  .specification__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .call__btn {
+    width: 220px;
+  }
+  .call {
+    flex-direction: column;
+  }
+  .call__number {
+    width: 212px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 22px;
+    height: 35px;
+  }
+  .call__btn {
+    width: 212px;
+    font-size: 16px;
+    line-height: 22px;
+    height: 40px;
+  }
+  .review__contact {
+    padding: 15px;
+  }
+  .review__title {
+    margin-bottom: 45px;
+  }
+  .review__item {
+    flex-direction: column;
+    text-align: center;
+  }
+  .review__content {
+    max-width: 677px;
+  }
+  .review__img {
+    margin: 0 0 34px;
+    &::after {
+      display: none;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      width: 80px;
+      height: 1px;
+      background-color: #878787;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      bottom: -22px;
+    }
+  }
+  .contact__title {
+    display: none;
+  }
+  .contact__title.contact__title-laptop {
+    display: block;
+    font-size: 26px;
+    line-height: 35px;
+    h3 {
+      margin: 0;
+    }
+  }
+  .call.contact {
+    flex-direction: row;
+  }
+  .contact__top-item img {
+    margin: 0 0 0 26px;
+  }
+  .call.contact {
+    padding: 0;
+  }
+  .contact__top {
+    align-items: flex-end;
+  }
+  .popup-window__text {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .popup-window span {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .popup-call .call__number.popup-call__number {
+    width: 280px;
+  }
+  .popup-call .call__btn.popup-window__btn {
+    width: 280px;
+  }
+}
+@media (max-width: 767px) {
+  .contact__title.contact__title-laptop {
+    text-align: center;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .contact__top {
+    flex-direction: column;
+  }
+  .contact__top-item {
+    margin: 0 auto;
+  }
+  .call.contact {
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+  .contact__bottom {
+    flex-direction: column;
+    text-align: center;
+    .phone {
+      text-align: center;
+      padding: 0;
+      max-width: 250px;
+      margin: 0 auto;
+      a {
+        font-size: 24px;
+        line-height: 33px;
+      }
+      &::before {
+        right: 0;
+      }
+    }
+  }
+  .contact__adress {
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 20px;
+  }
+  .contact__adress a {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 543px) {
+  .hedaer__logo img {
+    max-width: 113px;
+  }
+  .phone {
+    padding-right: 0;
+  }
+  .phone::before {
+    right: -1px;
+  }
+  .phone a {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .phone p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .intro {
+    padding-top: 80px;
+  }
+  .container {
+    padding: 0 10px;
+  }
+  .intro__title {
+    font-size: 26px;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+  .intro__subtitle {
+    font-size: 24px;
+    line-height: 33px;
+    padding-left: 0;
+  }
+  .intro__contact-title,
+  .intro__contact-subtitle {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .intro__contact button {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 10px;
+  }
+  .intro__contact {
+    padding: 15px 30px;
+    margin-bottom: 15px;
+  }
+  .intro__contact input {
+    max-width: 212px;
+    font-size: 16px;
+    line-height: 21px;
+    height: 35px;
+  }
+  .intro__contact button {
+    max-width: 212px;
+    height: 40px;
+  }
+  .intro__details h2 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .about {
+    padding: 15px 0 0;
+  }
+  .about__title-laptop {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .about__presentation img {
+    max-width: 270px;
+  }
+  .about__presentation a {
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 270px;
+    transform: translateX(10px);
+  }
+  .about__content-box__item {
+    max-width: 270px;
+    margin: 0 auto;
+  }
+
+  .about__content p {
+    font-size: 18px;
+    line-height: 19px;
+  }
+  .about__content-box__text ul span {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .about__content-box__text ul li {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .specification {
+    padding: 13px 0 15px;
+  }
+  .specification__about,
+  .specification__offer {
+    padding: 15px;
+  }
+  .specification-button {
+    font-size: 16px;
+    line-height: 22px;
+    width: 237px;
+    margin-left: -15px;
+  }
+  .specification__img {
+    margin-top: 16px;
+  }
+  .specification__text {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .specification__offer {
+    margin-bottom: 15px;
+  }
+  .contact__title-text {
+    max-width: 294px;
+    margin: 0 auto;
+  }
+  .review__item {
+    margin-bottom: 23px;
+  }
+  .review__title {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 19px;
+  }
+  .review__img img {
+    max-width: 120px;
+  }
+  .review__content {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .popup-call .call__number.popup-call__number {
+    width: 240px;
+  }
+  .popup-call .call__btn.popup-window__btn {
+    width: 240px;
+    height: 56px;
+  }
+  .popup-window {
+    padding: 15px 15px 24px;
+  }
+}
+@media (max-width: 415px) {
+  .intro {
+    background-size: 400%;
+    background-position: 27%;
+  }
+  .intro__subtitle {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .about__content p {
+    font-size: 14px;
+  }
+}

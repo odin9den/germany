@@ -1,0 +1,141 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  @extend %n-regular;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #0e0d17;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 10px;
+}
+.phone {
+  line-height: 25px;
+  position: relative;
+  text-align: right;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/phone-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 18%;
+    right: -12%;
+    width: 20px;
+    height: 10px;
+    cursor: pointer;
+  }
+  a {
+    font-size: 30px;
+    line-height: 41px;
+  }
+  p {
+    text-decoration: underline;
+  }
+}
+.chat {
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px 30px 10px 30px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    height: 80px;
+    width: 1px;
+    background-color: #ffffff;
+    left: -20%;
+    top: 0;
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 41px;
+    font-weight: 400;
+  }
+  p {
+    font-size: 13px;
+    line-height: 18px;
+    text-decoration-line: underline;
+  }
+}
+.specification-button {
+  display: block;
+  margin-left: -37px;
+  background-color: #5fb138;
+  padding: 15px 50px;
+  width: 444px;
+  max-height: 62px;
+  color: #ffffff;
+  @extend %n-semibold;
+  font-size: 26px;
+  line-height: 35px;
+  margin-top: 19px;
+  position: relative;
+}
+.call {
+  display: flex;
+}
+.call__number {
+  height: 59px;
+  padding: 10px 20px 10px 70px;
+  width: 285px;
+  background: rgba($color: #0e0d17, $alpha: 0.7);
+  border: 0;
+  position: relative;
+  color: #ffffff;
+  margin-bottom: 25px;
+  background-image: url("../images/flag.png");
+  background-repeat: no-repeat;
+  background-position: 19px;
+  background-size: 34px;
+  margin: 0;
+}
+.call__btn {
+  background-color: #5fb138;
+  @extend %n-semibold;
+  font-size: 26px;
+  line-height: 35px;
+  padding: 10px 15px;
+  width: 255px;
+  height: 59px;
+}
