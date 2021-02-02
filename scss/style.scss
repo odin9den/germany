@@ -169,7 +169,7 @@
   &__content-box__text {
     padding-left: 57px;
     ul {
-      span {
+      li.strong {
         line-height: 25px;
         @extend %n-semibold;
         display: block;

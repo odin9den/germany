@@ -131,11 +131,11 @@ button {
   margin: 0;
 }
 .call__btn {
+  display: inline;
+  text-align: center;
   background-color: #5fb138;
   @extend %n-semibold;
   font-size: 26px;
   line-height: 35px;
   padding: 10px 15px;
-  width: 255px;
-  height: 59px;
 }
